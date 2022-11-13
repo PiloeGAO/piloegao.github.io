@@ -1,0 +1,115 @@
+.wrapper::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+.wrapper {
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+.wrapper::after {
+    content: '';
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid rgba(255,255,255,.2);
+}
+
+.wrapper-inner::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 368px;
+    height: 305px;
+    left: 50%;
+    top: 50%;
+    margin-left: -186px;
+    margin-top: -167px;
+    background-image: url('../svg/fg.svg');
+    background-size: 100%;
+}
+
+.wrapper-inner {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 2;
+    margin-top: -4%;
+    max-width: 80%;
+}
+
+.title {
+    color: #DED6BE;
+    position: relative;
+    z-index: 2;
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: 0.26em;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0;
+    margin-top: 28px;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    color: #DED6BE;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 2px;
+    position: relative;
+    z-index: 2;
+    font-size: 13px;
+    line-height: 2.2;
+    font-weight: 300;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+.social-links {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+.social-links-items {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.scale-icon {
+    color: #DED6BE;
+    font-size: 1.25em;
+    text-decoration: none; /* no underline */
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+}
+
+.scale-icon:hover {
+    color: white;
+    font-size: 1.25em;
+    text-decoration: none; /* no underline */
+}
