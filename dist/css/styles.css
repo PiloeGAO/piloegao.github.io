@@ -1,3 +1,7 @@
+html {
+    font-family: "Bebas Neue", sans-serif;
+}
+
 .wrapper::before {
     content: '';
     display: inline-block;
@@ -65,7 +69,6 @@
     letter-spacing: 0.26em;
     font-weight: 300;
     font-style: italic;
-    font-family: 'Roboto Slab', serif;
     margin-bottom: 0;
     margin-top: 28px;
     text-transform: uppercase;
@@ -73,7 +76,6 @@
 
 .sub-title {
     color: #DED6BE;
-    font-family: 'Roboto Slab', serif;
     margin-top: 2px;
     position: relative;
     z-index: 2;
